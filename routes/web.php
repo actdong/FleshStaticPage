@@ -45,4 +45,4 @@ Route::get('/chengshihehuoren', 'ContactController@chengshihehuoren')->name('che
 Route::get('/zhaoxiannashi', 'ContactController@zhaoxiannashi')->name('zhaoxiannashi');
 
 //jiamenghezuo
-Route::get('/jiamenghezuo', 'jiamenghezuoController@jiamenghezuo')->name('jiamenghezuo');
+Route::get('/jiamenghezuo', 'JiamenghezuoController@jiamenghezuo')->name('jiamenghezuo');
